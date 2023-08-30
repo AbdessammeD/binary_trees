@@ -5,7 +5,7 @@
  * @parent: parent of the left child
  * @value: the value of the node
  *
- * Return: the address of the left-child node created
+ * Return: the address of the left-child node created. NULL otherwise
  */
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 {
